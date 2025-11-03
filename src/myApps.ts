@@ -1,4 +1,4 @@
-import IndecisivePage from './components/indecisive';
+import IndecisivePage from './apps/indecisive';
 
 export const myApps = [
     {

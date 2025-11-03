@@ -16,10 +16,7 @@ export default function IndecisivePage() {
     }
 
     return (
-        <motion.div className="content indecisive"
-            initial={{scale: 0}}
-            animate={{scale: 1}}
-        >
+        <motion.div className="content indecisive"  >
             <p className="err">{err}</p>
             <form className="form-container" onSubmit={(e) => main(e)}>
                 <input className="text-input" type="text" name="user-items" placeholder="thing1 thing2 thing3" onChange={(e) => setUserItems(e.target.value)} required />
