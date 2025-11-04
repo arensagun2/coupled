@@ -51,7 +51,7 @@ export default function App() {
             {currentApp &&
                 <div className={`${currentApp.page}-container`}>
                     <Header pageName={currentApp.name} setPage={setPage} />
-                    <h3>{currentApp.desc}</h3>
+                    <h2>{currentApp.desc}</h2>
                     <currentApp.component />
                 </div>
             }

@@ -1,0 +1,60 @@
+.indecisive {
+    gap: 2rem;
+}
+
+.all-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    overflow: auto;
+    scrollbar-width: none;
+    max-height: 25vh;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.option {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 5px;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0);
+    padding: 0.5rem 1rem;
+    transition: all 0.2s;
+}
+
+.option:hover {
+    border: 1px solid rgba(255,255,255,0.8);
+}
+
+.option .del-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.form-container input {
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.submit-input {
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: none;
+}

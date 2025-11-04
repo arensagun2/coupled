@@ -4,7 +4,7 @@ export const myApps = [
     {
         page: "indecisive",
         name: "Indecisive",
-        desc: "Chooses for you.",
+        desc: "Chooses for you indecisive couples.",
         component: IndecisivePage
     }
 ]
